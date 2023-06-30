@@ -4,6 +4,13 @@
 - CS373_extension.py is the same algorithm used for mp4 videos instead of images, except the input and output folders are now `/videos` and `/output_videos` respectively.
 - The algorithm works best for 700x700 images with one barcode and clear lighting, but it can still be improved for better detection.
 - Some of the image processing techniques used are:
+  - Normalisation
+  - Standard deviation filter
+  - Gaussian filter
+  - Threshholding
+  - Erosion
+  - Dilation
+  - Connected component analysis (more of a data structure & algorithms technique)
 
 ## Pipeline
 ![image](https://github.com/calebWei/BarcodeDetection/assets/100410646/f5257e8b-06fe-4606-a29a-d39e0f1fa921)
